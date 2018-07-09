@@ -4,7 +4,7 @@ COPY api /api
 
 WORKDIR /api
 
-EXPOSE 6060
+/* EXPOSE 6060 */
 
 RUN npm install
 
